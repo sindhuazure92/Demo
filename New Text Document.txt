@@ -1,1 +1,28 @@
-Welcome to git
+Git branching strategy:
+
+Q. Can you please explain what are the branches are available in your repo can you help me your branching strategy mechanism?
+1. In my project we are using GitHub for Version control system. Basically we are following below branches.
+
+	Development branch
+	Release branch
+	Bug fixing branch
+2. Apart from above branches we have master/main branch. By default when we create repo master/main will come by default.
+
+3. Development branch:
+
+   1. when developer going to add new feature for existing application then developer will create new development branch, after development is completed then developers will move the code to testing phase.
+
+4. Release Branch:
+
+   1. After development is completed the code will move to testing phase. If there is no bugs then we will devliver the code to customers.
+   2. In case any issues happens then developers will create bug fix branch.
+
+5. Bug fix branch:
+
+  1. In case any issue happened an existing releases then we will create the bug fix branch and will fix the bugs and then we will rebuild the code and we will redeploy the code.
+
+6. Master/Main Branch
+
+  1. Here we will maintain released code 
+  2. Developer doesn't have direct access in case if they want to merge the code then they must be create pull request.
+  
